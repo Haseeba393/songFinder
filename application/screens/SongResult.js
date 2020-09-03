@@ -11,6 +11,8 @@ import {
 import { Spinner } from '../components/elements';
 import { Colors } from '../resources'; 
 
+const rapiApiKey = 'Input your API key here';
+
 function SongResult({route}){
 
     //variables
@@ -33,7 +35,7 @@ function SongResult({route}){
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "shazam.p.rapidapi.com",
-                "x-rapidapi-key": "8b8039d728msh95c5a1d8fe3439bp19defbjsn63ac1b06f315"
+                "x-rapidapi-key": rapiApiKey
             }
         })
         .then(response => {

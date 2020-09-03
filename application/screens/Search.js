@@ -14,6 +14,8 @@ import { Colors } from '../resources';
 //importing elements
 import { Spinner, SuggestionCard } from '../components/elements';
 
+const rapiApiKey = 'Input your API key here';
+
 function Search({navigation}){
 
     const [data, setData] = useState([]);
@@ -54,7 +56,7 @@ function Search({navigation}){
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "shazam.p.rapidapi.com",
-                "x-rapidapi-key": "8b8039d728msh95c5a1d8fe3439bp19defbjsn63ac1b06f315"
+                "x-rapidapi-key": rapiApiKey,
             }
         })
         .then(response => {
