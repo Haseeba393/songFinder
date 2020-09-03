@@ -2,7 +2,7 @@
 
 <h3>Preview</h3>
 You can preview the live demo of this repo here: <br>
-
+<link>https://youtu.be/_dK5MDv8uEI</link>
 <br>
 If you like the demo, please hit subscribe and press the bell icon for more demos, tutorials and guidance in React Native.
 
