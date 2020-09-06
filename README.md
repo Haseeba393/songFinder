@@ -16,7 +16,7 @@ We will use Shazam API avaiable on Rapid API. Before using the Shazam API we nee
 <li>Press Signup button on top right corner and provide your details</li>
 <li>After successfully signup, you will be able to test the endpoints on the Shazam API on the browser</li>
 <li>In the center section of the API documention, you will see X-RapidAPI-KEY, which you need in code</li>
-<li>Copy the API key and paste it in <strong>Search.js</srong> and <srong>SongResult.js</srong></li>
+<li>Copy the API key and paste it in <strong>Search.js</strong> and <strong>SongResult.js</strong></li>
 </ol>
 
 <h5>Setting up code</h5>
